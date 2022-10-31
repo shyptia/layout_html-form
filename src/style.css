@@ -1,20 +1,8 @@
 /* styles go here */
 .form_fieldset {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.form_fieldset:first-child {
-  margin-top: 0;
-}
-
-.form_input {
+.form_input:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.form_fieldset > .form_input:last-child {
-  margin-bottom: 0;
-}
-
-.submit_button {
-  margin-top: 20px;
 }
